@@ -1,24 +1,3 @@
-#form-title{
-    text-align: center;
-}
-
-#section_formulaire{
-    background-image: url("")
-}
-
-#section_formulaire .form{
-    width: 60%;
-}
- /* validation du formulaire */
-input:invalid {
-    box-shadow: 0 0 5px 1px red;
-  }
-  
-input:focus:invalid {
-    outline: none;
-  }
-
-
 @media (max-width:360px) {
     #hidden_div_form{
         display: none;
@@ -28,46 +7,39 @@ input:focus:invalid {
     }
 }
 
-/* logo telephone dans header */
-#logoTelephone {
-    height: 50%;
+
+/*NAVBAR*/
+.navbar-dark .navbar-brand {
+    color: red;
+    font-weight: bold;
 }
 
-#who {
-    background-color: wheat;
-    
+
+/*HEADER*/
+.blocHaut {
+    background-image: linear-gradient(to right,black,black,black,gray);
+    color: white;
+}
+
+
+.header{
+    background-image: url(images/logo.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    min-height: 40vh;
 }
 
 #quiSommes{
-    align-items: center;
     text-decoration: underline;
     font-size: 25px;
 }
 
-#descriptif {
-    align-items: center;
-}
-
-/* Taille image electrique */
-#electrique {
-    height: 50%;
-}
-
-/* Section téléphone */
+/*téléphone */
 #telephone {
     text-decoration: underline;
     font-size: 30px;
 }
-
-#home {
-    height: 70%;
-    width: 3%;
-}
-
-#voiture {
-    height: 50%;
-}
-
+/*FIN HEADER*/
 
 /* style carousel */
 
@@ -167,7 +139,27 @@ input:focus:invalid {
     
 }
 
-.navbar-dark .navbar-brand {
-    color: red;
-    font-weight: bold;
+
+/*FORMULAIRE*/
+#form-title{
+    text-align: center;
 }
+
+#section_formulaire{
+    background-image: url("")
+}
+
+#section_formulaire .form{
+    width: 60%;
+}
+
+/* validation du formulaire */
+input:invalid {
+    box-shadow: 0 0 5px 1px red;
+  }
+  
+input:focus:invalid {
+    outline: none;
+  }
+
+/*FIN FORMULAIRE*/
