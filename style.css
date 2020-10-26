@@ -41,6 +41,18 @@
 #electrique {
     height: 50%;
 }
+
+/* Section téléphone */
+#telephone {
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+#home {
+    height: 80%;
+    width: 6%;
+}
+
 /* style carousel */
 
 #carousel {
