@@ -10,24 +10,27 @@
     .header{
         display: flex;
         flex-direction: column;
-        align-items: stretch;
+        border: 2px solid green;
     }
     #electriqueImg img{
         display: none;
     }
+
     #logo{
         min-width: 100vw;
         min-height: 20vh;
+        border: 2px solid red;
     }
     #logo img{
         width: inherit;
         height: inherit;
     }
+
     #who{
         min-height: 20vh;
         min-width: 100vw;
-
     }
+
     .header p{
         word-wrap: break-word;
         font-size: x-small;
@@ -37,44 +40,36 @@
 /*FIN RESPONSIVE MOBILE*/
 
 
-/* logo telephone dans header */
-#logoTelephone {
-    height: 50%;
+/*HEADER*/
+.blocHaut {
+    background-color: black;
+    color: white;
 }
 
-#who {
-    background-color: wheat;
-    
+.header{
+    background-image: url(images/logo.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    min-height: 40vh;
 }
 
 #quiSommes{
-    align-items: center;
     text-decoration: underline;
     font-size: 25px;
 }
 
 #descriptif {
-    align-items: center;
 }
 
-/* Taille image electrique */
-#electrique {
-    height: 50%;
-}
-
-/* Section téléphone */
+/*téléphone */
 #telephone {
     text-decoration: underline;
     font-size: 30px;
 }
+/*FIN HEADER*/
 
-#home {
-    height: 70%;
-    width: 3%;
-}
 
-/* style carousel */
-
+/* STYLE CAROUSSEL */
 #carousel {
     background-color: #039BE5
 }
@@ -110,9 +105,7 @@
     
 }
 
-
 .texteCarousel
-
 {
   
   
@@ -133,7 +126,7 @@
                     0 20px 20px rgba(0,0,0,.3);
   }
 
-/* fin style carousel */
+/* FIN STYLE CAROUSSEL*/
 
 
 

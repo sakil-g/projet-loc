@@ -19,6 +19,7 @@
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <script src="SO6.js"></script>
   <link rel="stylesheet" href="style.css">
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
   <title>Roug'SO6</title>
 </head>
 
@@ -26,11 +27,17 @@
 <!--- En-tếte = div bannière (  background couleur pastel au choix ) ---->
 
 <div class="blocHaut container-fluid">
+  <div class='row'>
+    <nav class='navbar'>
+      <ul>
+        <li>Nos chiffres</li>
+        <li>Demandez un devis</li>
+        <li>Nos Partenaires</li>
+      </ul>
+    </nav>
+  </div>
   <div class="row header">
-    <div class="col-2" id="logo">
-      <img src="images/logo.jpg" alt="" id="logoTelephone">
-    </div>
-    <div class="col-8 row" id="who">
+    <div class="col-8 row d-flex justify-content-end" id="who">
       <div class="col-3 d-flex justify-content-center" id="quiSommes">
         <span class="align-middle">Qui sommes nous ?</span>
       </div>
@@ -40,16 +47,14 @@
         électrique.</p>
       </div>
     </div>
-    <div class="col-2 d-flex justify-content-center" id="electriqueImg">
-      <img src="images/electrique.png" alt="" id="electrique">
-    </div>
   </div>
 </div>
 <!------------------Bloc telephone-------------------->
 <div class="container my-5">
   <div class="row">
     <div class="col d-flex justify-content-center">
-      <p class="text-center" id="telephone"> <img src="images/home.png" alt="" id="home">Tel : +262.6 99999999</p>
+      <p class="text-center mr-3" id="telephone">Tel : +262.6 99999999</p>
+      <span><i class='fas fa-phone' style='font-size:36px'></i></span>
     </div>
   </div>
 </div>
