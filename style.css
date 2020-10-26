@@ -1,3 +1,32 @@
+#form-title{
+    text-align: center;
+}
+
+#section_formulaire{
+    background-image: url("")
+}
+
+#section_formulaire .form{
+    width: 60%;
+}
+
+@media (max-width:360px) {
+    #hidden_div_form{
+        display: none;
+    }
+    #section_form input{
+        height: 50px;
+    }
+}
+/* paramètres des rows */
+.row {
+    height: 100px;
+}
+
+#logo {
+    height: 100px;
+}
+
 /* logo telephone dans header */
 #logoTelephone {
     height: 50%;
@@ -24,3 +53,34 @@
 #electrique {
     height: 50%;
 }
+/* style carousel */
+
+#carousel {
+    background-color: #039BE5
+}
+
+.items {
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 100px
+}
+
+.slick-slide {
+    margin: 10px
+}
+
+.slick-slide img {
+    width: 100%;
+    border: 0px solid #fff
+}
+
+.carousel-content
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 200px;
+    color: white;
+}
+
+/* fin style carousel */
