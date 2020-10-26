@@ -10,6 +10,15 @@
     width: 60%;
 }
 
+input:invalid {
+    box-shadow: 0 0 5px 1px red;
+  }
+  
+input:focus:invalid {
+    outline: none;
+  }
+
+
 @media (max-width:360px) {
     #hidden_div_form{
         display: none;
