@@ -9,7 +9,7 @@
 #section_formulaire .form{
     width: 60%;
 }
-
+ /* validation du formulaire */
 input:invalid {
     box-shadow: 0 0 5px 1px red;
   }
