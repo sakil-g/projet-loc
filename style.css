@@ -1,0 +1,118 @@
+#form-title{
+    text-align: center;
+}
+
+#section_formulaire{
+    background-image: url("")
+}
+
+#section_formulaire .form{
+    width: 60%;
+}
+
+@media (max-width:360px) {
+    #hidden_div_form{
+        display: none;
+    }
+    #section_form input{
+        height: 50px;
+    }
+}
+
+/* logo telephone dans header */
+#logoTelephone {
+    height: 50%;
+}
+
+#who {
+    background-color: wheat;
+    
+}
+
+#quiSommes{
+    align-items: center;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+#descriptif {
+    align-items: center;
+}
+
+/* Taille image electrique */
+#electrique {
+    height: 50%;
+}
+
+/* Section téléphone */
+#telephone {
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+#home {
+    height: 70%;
+    width: 3%;
+}
+
+/* style carousel */
+
+#carousel {
+    background-color: #039BE5
+}
+
+#carouselItem {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.items {
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 100px
+}
+
+.slick-slide {
+    margin: 10px
+}
+
+.slick-slide img {
+    width: 100%;
+    border: 0px solid #fff
+}
+
+.carousel-content
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 140px;
+    color: white;
+    font: 900 40px/0 'Source Sans Pro', Arial, sans-serif; text-transform: uppercase; color: #fff; text-align: center; letter-spacing: -3px; padding-top: 10%;
+    
+}
+
+
+.texteCarousel
+
+{
+  
+  
+    text-shadow:     0 1px 0 hsl(174,5%,80%),
+                       0 2px 0 hsl(174,5%,75%),
+                       0 3px 0 hsl(174,5%,70%),
+                       0 4px 0 hsl(174,5%,66%),
+                       0 5px 0 hsl(174,5%,64%),
+                       0 6px 0 hsl(174,5%,62%),
+                       0 7px 0 hsl(174,5%,61%),
+                       0 8px 0 hsl(174,5%,60%),
+      
+                       0 0 5px rgba(0,0,0,.05),
+                      0 1px 3px rgba(0,0,0,.2),
+                      0 3px 5px rgba(0,0,0,.2),
+                     0 5px 10px rgba(0,0,0,.2),
+                    0 10px 10px rgba(0,0,0,.2),
+                    0 20px 20px rgba(0,0,0,.3);
+  }
+
+/* fin style carousel */
