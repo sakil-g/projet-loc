@@ -74,6 +74,7 @@ a:hover{
 #quiSommes{
     text-decoration: underline;
     font-size: 25px;
+    max-height: min-content;
 }
 
 #descriptif {
