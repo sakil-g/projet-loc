@@ -166,3 +166,8 @@ input:focus:invalid {
     height: 22rem;
     
 }
+
+.navbar-dark .navbar-brand {
+    color: red;
+    font-weight: bold;
+}
