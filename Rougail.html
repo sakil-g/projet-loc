@@ -69,38 +69,40 @@
 
 <!---formulaire et autres offres-->
 
-<div class="container">
+<div id='section_formulaire' class="container">
     <div class="row">
-      <div class="col-sm">
-        <form action="" method="POST" class=' d-flex flex-column'>
-          <div class='d-flex justify-content-between my-1'>
-            <label for="nom">Nom</label>
-            <input type="text" id='nom' class='form' required>
-          </div>
-          <div class='d-flex justify-content-between my-1'>
-            <label for="prenom">Prénom</label>
-            <input type="text" id='prenom' class='form' required>
-          </div>
-          <div class='d-flex justify-content-between my-1'>
-            <label for="mail">Mail</label>
-            <input type="text" id='mail' class='form' required>
-          </div>
-          <div class='d-flex justify-content-between my-1'>
-            <label for="entreprise">Entreprise</label>
-            <input type="text" id='entreprise' class='form' required>
-          </div>
-          <div class='d-flex justify-content-between my-1'>
-            <label for="message">Message</label>
-            <input type="text" id='message' class='form' required>
-          </div>
-        </form>
-      </div>
-      <div class="col-sm">
-        autre offre 1
-      </div>
-      <div class="col-sm">
-        autre offre 2
-      </div>
+        <div id='hidden_div_form' class="col-sm">
+        </div>
+
+        <div class="col-sm">
+          <form action="" method="POST" class='d-flex flex-column'>
+            <h4 class='mb-5' id='form-title'>Formulaire de contact</h4>
+            <div class='d-flex justify-content-between my-2'>
+              <label for="nom">Nom</label>
+              <input type="text" id='nom' class='form' required>
+            </div>
+            <div class='d-flex justify-content-between my-2'>
+              <label for="prenom">Prénom</label>
+              <input type="text" id='input_prenom' class='form' required>
+            </div>
+            <div class='d-flex justify-content-between my-2'>
+              <label for="mail">Mail</label>
+              <input type="mail" id='input_mail' class='form' required>
+            </div>
+            <div class='d-flex justify-content-between my-2'>
+              <label for="entreprise">Entreprise</label>
+              <input type="text" id='input_entreprise' class='form' required>
+            </div>
+            <div id='input_message' class='d-flex justify-content-between my-2'>
+              <label for="message">Message</label>
+              <textarea class='form' required></textarea>
+            </div>
+            <div id='submit_form' class='d-flex justify-content-center my-4'>
+              <input type="submit" value='Envoyer' class='btn btn-primary'>
+            </div>
+          </form>
+
+        </div>
     </div>
   </div>
 
