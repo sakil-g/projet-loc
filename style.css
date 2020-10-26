@@ -1,0 +1,27 @@
+/* paramètres des rows */
+.row {
+    
+    height: 80px;
+}
+
+/* logo telephone dans header */
+#logoTelephone {
+    background-image: url(images/logo.jpg);
+    background-size: 170px;
+    background-repeat: no-repeat;
+    
+}
+
+#who {
+    background-color: wheat;
+    
+}
+
+#qui-sommes {
+    justify-content: center;
+    align-items: center;
+}
+
+#descriptif {
+    
+}
