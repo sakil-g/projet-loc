@@ -1,32 +1,3 @@
-/* paramètres des rows */
-.row {
-    height: 100px;
-}
-
-#logo {
-    height: 100px;
-}
-
-/* logo telephone dans header */
-#logoTelephone {
-    height: 100%;
-}
-
-#who {
-    background-color: wheat;
-    
-}
-
-#qui-sommes {
-    justify-content: center;
-    align-items: center;
-}
-
-#descriptif {
-    
-}
-
-/* style carousel */
 
 #carousel {
     background-color: #039BE5
