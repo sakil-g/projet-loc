@@ -49,6 +49,8 @@
 
 #quiSommes{
     align-items: center;
+    text-decoration: underline;
+    font-size: 25px;
 }
 
 #descriptif {
@@ -67,8 +69,8 @@
 }
 
 #home {
-    height: 80%;
-    width: 6%;
+    height: 70%;
+    width: 3%;
 }
 
 /* style carousel */
@@ -79,6 +81,7 @@
 
 #carouselItem {
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .items {
