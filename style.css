@@ -26,7 +26,7 @@
 
 /* logo telephone dans header */
 #logoTelephone {
-    height: 100%;
+    height: 50%;
 }
 
 #who {
@@ -34,11 +34,50 @@
     
 }
 
-#qui-sommes {
-    justify-content: center;
+#quiSommes{
     align-items: center;
 }
 
 #descriptif {
+    align-items: center;
+}
+
+#electriqueImg {
+    background-color: aquamarine;
     
 }
+
+#electrique {
+    height: 50%;
+}
+/* style carousel */
+
+#carousel {
+    background-color: #039BE5
+}
+
+.items {
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 100px
+}
+
+.slick-slide {
+    margin: 10px
+}
+
+.slick-slide img {
+    width: 100%;
+    border: 0px solid #fff
+}
+
+.carousel-content
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 200px;
+    color: white;
+}
+
+/* fin style carousel */
