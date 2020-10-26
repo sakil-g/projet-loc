@@ -1,28 +1,42 @@
-#form-title{
-    text-align: center;
-}
-
-#section_formulaire{
-    background-image: url("")
-}
-
-#section_formulaire .form{
-    width: 60%;
-}
-
+/*RESPONSIVE MOBILE*/
 @media (max-width:360px) {
+    /*formulaire*/
     #hidden_div_form h3{
         display: none;
     }
-}
-/* paramètres des rows */
-.row {
-    height: 100px;
-}
+    /*fin formulaire*/
 
-#logo {
-    height: 100px;
+    /*header*/
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    #electriqueImg img{
+        display: none;
+    }
+    #logo{
+        min-width: 100vw;
+        min-height: 20vh;
+    }
+    #logo img{
+        width: inherit;
+        height: inherit;
+    }
+    #who{
+        min-height: 20vh;
+        min-width: 100vw;
+
+    }
+    .header p{
+        word-wrap: break-word;
+        font-size: x-small;
+    }
+    /*fin header*/
 }
+/*FIN RESPONSIVE MOBILE*/
+
+
 
 /* logo telephone dans header */
 #logoTelephone {
@@ -42,11 +56,7 @@
     align-items: center;
 }
 
-#electriqueImg {
-    background-color: aquamarine;
-    
-}
-
+/* Taille image electrique */
 #electrique {
     height: 50%;
 }
@@ -54,6 +64,10 @@
 
 #carousel {
     background-color: #039BE5
+}
+
+#carouselItem {
+    margin-top: 30px;
 }
 
 .items {
@@ -81,3 +95,20 @@
 }
 
 /* fin style carousel */
+
+
+
+
+/*FORMULAIRE*/
+#form-title{
+    text-align: center;
+}
+
+#section_formulaire{
+    background-image: url("")
+}
+
+#section_formulaire .form{
+    width: 60%;
+}
+/*FIN FORMULAIRE*/
