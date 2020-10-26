@@ -1,3 +1,23 @@
+#form-title{
+    text-align: center;
+}
+
+#section_formulaire{
+    background-image: url("")
+}
+
+#section_formulaire .form{
+    width: 60%;
+}
+
+@media (max-width:360px) {
+    #hidden_div_form{
+        display: none;
+    }
+    #section_form input{
+        height: 50px;
+    }
+}
 /* paramètres des rows */
 .row {
     height: 100px;
