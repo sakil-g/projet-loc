@@ -1,15 +1,6 @@
-/* paramètres des rows */
-.row {
-    height: 100px;
-}
-
-#logo {
-    height: 100px;
-}
-
 /* logo telephone dans header */
 #logoTelephone {
-    height: 100%;
+    height: 50%;
 }
 
 #who {
@@ -17,11 +8,19 @@
     
 }
 
-#qui-sommes {
-    justify-content: center;
+#quiSommes{
     align-items: center;
 }
 
 #descriptif {
+    align-items: center;
+}
+
+#electriqueImg {
+    background-color: aquamarine;
     
+}
+
+#electrique {
+    height: 50%;
 }
