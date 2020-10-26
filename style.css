@@ -116,3 +116,38 @@
   }
 
 /* fin style carousel */
+
+
+
+/*section nouvelle offre David*/
+.nouvelle-offre{
+    text-align: center;
+}
+
+.contour-radius{
+    margin-top: 10%;
+    display:block;
+    border:1px solid black;
+}
+
+.bandeau{
+    width:100%;
+    }
+
+    .texte{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: blanchedalmond;
+    }
+
+.image1{
+    background-image: url("images/cover-r4x3w1000-5b9151fead3cd-ss-tech2.jpg");
+    background-repeat: no-repeat;
+   
+}
+
+
+.card{
+    width: 18rem;
+    height: 22rem;
+    
+}
