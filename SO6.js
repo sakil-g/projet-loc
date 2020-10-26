@@ -1,3 +1,4 @@
+/* jQuery carousel */
 $(document).ready(function(){
 
 
@@ -15,3 +16,5 @@ $(document).ready(function(){
     
     
     });
+
+/* fin jQuery carousel */
