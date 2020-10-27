@@ -37,6 +37,7 @@
     }
 }
 
+
 /*FIN RESPONSIVE MOBILE*/
 
 
@@ -47,11 +48,13 @@ body{
 
 
 /*NAVBAR*/
-.navbar{
-    background-image: url(images/logo.jpg);
-    background-size: 8%;
-    background-repeat: no-repeat;
-    background-position: center;
+
+.navbar-brand
+
+.navitem a:hover{
+    font-weight: bold;
+    color: white;
+    filter: brightness(150%);
 }
 
 
