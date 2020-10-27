@@ -1,10 +1,33 @@
+/*RESPONSIVE MOBILE*/
 @media (max-width:360px) {
-    #hidden_div_form{
+    /*formulaire*/
+    #hidden_div_form h3{
         display: none;
     }
-    #section_form input{
-        height: 50px;
+    /*fin formulaire*/
+}
+    /*header*/
+@media (max-width:1200px){
+    .blocHaut{
+        background-color: black;
     }
+}
+
+@media (max-width:700px){
+    #who{
+        min-width: 100vw;
+        align-self: center;
+    }
+
+    #who h3{
+        font-size: large;
+        font-weight: bold;
+    }
+    #who p{
+        font-size: x-small;
+        font-weight: bold;
+    }
+    /*fin header*/
 }
 
 @media (max-width:1440px)
@@ -14,25 +37,32 @@
     }
 }
 
+/*FIN RESPONSIVE MOBILE*/
+
+
+
+body{
+    background-color: rgba(185, 185, 255, 0.349);
+}
+
 
 /*NAVBAR*/
-.navbar-dark .navbar-brand {
-    color: red;
-    font-weight: bold;
+.navbar{
+    background-image: url(images/logo.jpg);
+    background-size: 8%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
 /*HEADER*/
 .blocHaut {
-    background-image: linear-gradient(to right,black,black,black,gray);
+    background-image: linear-gradient(to right,black,black,rgba(37, 22, 255, 0.664),rgb(196, 151, 255));
     color: white;
 }
 
 
 .header{
-    background-image: url(images/logo.jpg);
-    background-position: left;
-    background-repeat: no-repeat;
     min-height: 40vh;
 }
 
@@ -48,8 +78,10 @@
 }
 /*FIN HEADER*/
 
-/* style carousel */
 
+
+
+/* STYLE CAROUSSEL */
 #carousel {
     background-color: #ffffff;
     
@@ -86,9 +118,7 @@
     
 }
 
-
 .texteCarousel
-
 {
   
   
@@ -109,35 +139,7 @@
                     0 20px 20px rgba(0,0,0,.3);
   }
 
-/* fin style carousel */
-
-
-
-/*section nouvelle offre David*/
-.nouvelle-offre{
-    text-align: center;
-}
-
-.contour-radius{
-    margin-top: 10%;
-    display:block;
-    border:1px solid black;
-}
-
-.bandeau{
-    width:100%;
-    }
-
-    .texte{
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        color: blanchedalmond;
-    }
-
-.image1{
-    background-image: url("images/cover-r4x3w1000-5b9151fead3cd-ss-tech2.jpg");
-    background-repeat: no-repeat;
-   
-}
+/* FIN STYLE CAROUSSEL*/
 
 /* parametres pour image voiture */
 #voiture {
@@ -167,16 +169,6 @@
 #section_formulaire .form{
     width: 60%;
 }
-
-/* validation du formulaire */
-input:invalid {
-    box-shadow: 0 0 5px 1px red;
-  }
-  
-input:focus:invalid {
-    outline: none;
-  }
-
 /*FIN FORMULAIRE*/
 
 
