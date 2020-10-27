@@ -215,25 +215,26 @@
       <div class="col-sm">
         <form action="" method="POST" class='d-flex flex-column'>
           <h4 class='mb-5' id='form-title'>Formulaire de contact</h4>
+          <p>(*) champs obligatoires</p>
           <div class='d-flex justify-content-between my-2'>
-            <label for="nom">Nom</label>
+            <label for="nom">Nom*</label>
             <input type="text" id='nom' class='form' pattern="[A-Za-z].{2,}" data-rule-minlength="2" required>
           </div>
           <div class='d-flex justify-content-between my-2'>
-            <label for="prenom">Prénom</label>
+            <label for="prenom">Prénom*</label>
             <input type="text" id='input_prenom' class='form'
             pattern="[A-Za-z].{2,}" data-rule-minlength="2" required>
           </div>
           <div class='d-flex justify-content-between my-2'>
-            <label for="mail">Mail</label>
+            <label for="mail">Mail*</label>
             <input type="mail" id='input_mail' class='form' autocomplete = "email" pattern=".+@+.+" required>
           </div>
           <div class='d-flex justify-content-between my-2'>
-            <label for="entreprise">Entreprise</label>
+            <label for="entreprise">Entreprise*</label>
             <input type="text" id='input_entreprise' class='form' pattern="[A-Za-z].{2,}" data-rule-minlength="2" required>
           </div>
           <div id='input_message' class='d-flex justify-content-between my-2'>
-            <label for="message">Message</label>
+            <label for="message">Message*</label>
             <textarea class='form' maxlength="100" required></textarea>
           </div>
           <div id='submit_form' class='d-flex justify-content-center my-4'>
