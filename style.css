@@ -1,6 +1,9 @@
 /*RESPONSIVE MOBILE*/
 @media (max-width:822px){
-    #trouver
+    #trouver{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media (max-width:775px){
