@@ -7,6 +7,13 @@
     }
 }
 
+@media (max-width:1440px)
+{
+    .texteCarousel{
+        display: none;
+    }
+}
+
 
 /*NAVBAR*/
 .navbar-dark .navbar-brand {
