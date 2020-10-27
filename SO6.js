@@ -6,7 +6,7 @@ $(document).ready(function(){
     $('.items').slick({
     infinite: true,
     lazyLoad: 'ondemand',
-    slidesToShow: 5,
+    slidesToShow: 4,
     slidesToScroll: 3
     });
     
