@@ -1,12 +1,17 @@
 /*RESPONSIVE MOBILE*/
-@media (max-width:360px) {
-    /*formulaire*/
- 
-    /*fin formulaire*/
+@media (max-width:822px){
+    #trouver{
+        display: flex;
+        flex-direction: column;
+    }
 }
+
 @media (max-width:775px){
     #hidden_div_form figure{
         display: none;
+    }
+    form{
+        width: 80vw;
     }
 }
 @media (max-width:700px){
