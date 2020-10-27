@@ -1,19 +1,17 @@
 /*RESPONSIVE MOBILE*/
 @media (max-width:360px) {
     /*formulaire*/
-    #hidden_div_form h3{
-        display: none;
-    }
+ 
     /*fin formulaire*/
 }
-    /*header*/
-@media (max-width:1200px){
-    .blocHaut{
-        background-color: black;
+@media (max-width:775px){
+    #hidden_div_form figure{
+        display: none;
     }
 }
-
 @media (max-width:700px){
+
+    /*header*/
     #who{
         min-width: 100vw;
         align-self: center;
@@ -26,6 +24,15 @@
     #who p{
         font-size: x-small;
         font-weight: bold;
+    }
+    #telephone{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #telephone span{
+        order: -1;
     }
     /*fin header*/
 }
@@ -77,6 +84,7 @@ body{
 /*téléphone */
 #telephone {
     text-decoration: underline;
+    text-decoration: white;
     font-size: 30px;
 }
 /*FIN HEADER*/
