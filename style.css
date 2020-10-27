@@ -8,6 +8,9 @@
     #hidden_div_form figure{
         display: none;
     }
+    form{
+        width: 80vw;
+    }
 }
 @media (max-width:700px){
 
