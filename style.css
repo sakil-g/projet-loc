@@ -141,8 +141,10 @@ body{
 
 /* FIN STYLE CAROUSSEL*/
 
-
-
+#voiture {
+    border-radius: 30%;
+    margin-top: 15%;
+}
 
 /*FORMULAIRE*/
 #form-title{
