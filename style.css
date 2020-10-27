@@ -169,7 +169,6 @@ body{
 /*FIN FORMULAIRE*/
 
 
-<<<<<<< HEAD
 /*FIN FORMULAIRE*/
 
 
@@ -182,11 +181,11 @@ body{
 
 .brands_slider_container {
     height: 140px;
-    
-
+    background: #fff;
     padding-left: 97px;
     padding-right: 97px;
-    background: #fff
+    border: solid 1px #e8e8e8;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
 }
 
 .brands_slider {
@@ -234,5 +233,3 @@ body{
 .brands_next {
     right: 40px
 }
-=======
->>>>>>> b1151fcacb6ae8cba11b093d62f96997a67b7e16
