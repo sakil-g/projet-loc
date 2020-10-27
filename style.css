@@ -1,9 +1,8 @@
 /*RESPONSIVE MOBILE*/
-@media (max-width:360px) {
-    /*formulaire*/
- 
-    /*fin formulaire*/
+@media (max-width:822px){
+    #trouver
 }
+
 @media (max-width:775px){
     #hidden_div_form figure{
         display: none;
