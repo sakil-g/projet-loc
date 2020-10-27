@@ -10,7 +10,6 @@
     .header{
         display: flex;
         flex-direction: column;
-        border: 2px solid green;
     }
     #electriqueImg img{
         display: none;
@@ -19,7 +18,6 @@
     #logo{
         min-width: 100vw;
         min-height: 20vh;
-        border: 2px solid red;
     }
     #logo img{
         width: inherit;
@@ -32,35 +30,20 @@
     }
 
     .header p{
-        word-wrap: break-word;
         font-size: x-small;
     }
     /*fin header*/
 }
 /*FIN RESPONSIVE MOBILE*/
 
+body{
+    background-color: rgba(185, 185, 255, 0.349);
+}
 
 /*HEADER*/
 .blocHaut {
-    background-image: linear-gradient(to right,black,black,black,gray);
+    background-image: linear-gradient(to right,black,black,rgba(37, 22, 255, 0.664),rgb(196, 151, 255));
     color: white;
-}
-
-.navbar{
-
-}
-
-.navbar ul{
-    list-style: none;
-}
-
-a:link, a:visited, a:active{
-    text-decoration: none;
-    color: white;
-}
-
-a:hover{
-    font-weight: bold;
 }
 
 
@@ -74,10 +57,6 @@ a:hover{
 #quiSommes{
     text-decoration: underline;
     font-size: 25px;
-    max-height: min-content;
-}
-
-#descriptif {
 }
 
 /*téléphone */
@@ -90,7 +69,8 @@ a:hover{
 
 /* STYLE CAROUSSEL */
 #carousel {
-    background-color: #039BE5
+    background-color: #ffffff;
+    
 }
 
 #carouselItem {
