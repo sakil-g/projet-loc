@@ -1,10 +1,50 @@
-@media (max-width:360px) {
-    #hidden_div_form{
+/*RESPONSIVE MOBILE*/
+@media (max-width:822px){
+    #trouver{
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+    }
+
+    iframe{
+        width: 100%;
+    }
+}
+
+@media (max-width:775px){
+    #hidden_div_form figure{
         display: none;
     }
-    #section_form input{
-        height: 50px;
+    form{
+        width: 80vw;
     }
+}
+@media (max-width:700px){
+
+    /*header*/
+    #who{
+        min-width: 100vw;
+        align-self: center;
+    }
+
+    #who h3{
+        font-size: large;
+        font-weight: bold;
+    }
+    #who p{
+        font-size: x-small;
+        font-weight: bold;
+    }
+    #telephone{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #telephone span{
+        order: -1;
+    }
+    /*fin header*/
 }
 
 @media (max-width:1440px)
@@ -15,24 +55,34 @@
 }
 
 
+/*FIN RESPONSIVE MOBILE*/
+
+
+
+body{
+    background-color: rgba(185, 185, 255, 0.349);
+}
+
+
 /*NAVBAR*/
-.navbar-dark .navbar-brand {
-    color: red;
+
+.navbar-brand
+
+.navitem a:hover{
     font-weight: bold;
+    color: white;
+    filter: brightness(150%);
 }
 
 
 /*HEADER*/
 .blocHaut {
-    background-image: linear-gradient(to right,black,black,black,gray);
+    background-image: linear-gradient(to right,black,black,rgba(37, 22, 255, 0.664),rgb(196, 151, 255));
     color: white;
 }
 
 
 .header{
-    background-image: url(images/logo.jpg);
-    background-position: left;
-    background-repeat: no-repeat;
     min-height: 40vh;
 }
 
@@ -44,12 +94,15 @@
 /*téléphone */
 #telephone {
     text-decoration: underline;
+    text-decoration: white;
     font-size: 30px;
 }
 /*FIN HEADER*/
 
-/* style carousel */
 
+
+
+/* STYLE CAROUSSEL */
 #carousel {
     background-color: #ffffff;
     
@@ -76,47 +129,30 @@
 }
 
 
-
 .texteCarousel
-
 {
   
   font-size: 3rem;
 
   }
 
-/* fin style carousel */
+/* FIN STYLE CAROUSSEL*/
 
-
-
-/*section nouvelle offre David*/
-.nouvelle-offre{
-    text-align: center;
+/* parametres pour image voiture */
+#voiture {
+    border-radius: 30%;
+    margin-top: 35%;
 }
-
-.contour-radius{
-    margin-top: 10%;
-    display:block;
-    border:1px solid black;
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
-
-.bandeau{
-    width:100%;
-    }
-
-    .texte{
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        color: blanchedalmond;
-    }
-
-.image1{
-    background-image: url("images/cover-r4x3w1000-5b9151fead3cd-ss-tech2.jpg");
-    background-repeat: no-repeat;
-   
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
 }
-
-
-
 
 /*FORMULAIRE*/
 #form-title{
@@ -130,16 +166,10 @@
 #section_formulaire .form{
     width: 60%;
 }
+/*FIN FORMULAIRE*/
 
-/* validation du formulaire */
-input:invalid {
-    box-shadow: 0 0 5px 1px red;
-  }
-  
-input:focus:invalid {
-    outline: none;
-  }
 
+<<<<<<< HEAD
 /*FIN FORMULAIRE*/
 
 
@@ -151,7 +181,7 @@ input:focus:invalid {
 }
 
 .brands_slider_container {
-    height: 180px;
+    height: 140px;
     
 
     padding-left: 97px;
@@ -204,3 +234,5 @@ input:focus:invalid {
 .brands_next {
     right: 40px
 }
+=======
+>>>>>>> b1151fcacb6ae8cba11b093d62f96997a67b7e16
