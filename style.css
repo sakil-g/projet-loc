@@ -5,40 +5,55 @@
         display: none;
     }
     /*fin formulaire*/
-
+}
     /*header*/
-    .header{
-        display: flex;
-        flex-direction: column;
+@media (max-width:1200px){
+    .blocHaut{
+        background-color: black;
     }
-    #electriqueImg img{
-        display: none;
-    }
+}
 
-    #logo{
-        min-width: 100vw;
-        min-height: 20vh;
-    }
-    #logo img{
-        width: inherit;
-        height: inherit;
-    }
-
+@media (max-width:700px){
     #who{
-        min-height: 20vh;
         min-width: 100vw;
+        align-self: center;
     }
 
-    .header p{
+    #who h3{
+        font-size: large;
+        font-weight: bold;
+    }
+    #who p{
         font-size: x-small;
+        font-weight: bold;
     }
     /*fin header*/
 }
+
+@media (max-width:1440px)
+{
+    .texteCarousel{
+        display: none;
+    }
+}
+
 /*FIN RESPONSIVE MOBILE*/
+
+
 
 body{
     background-color: rgba(185, 185, 255, 0.349);
 }
+
+
+/*NAVBAR*/
+.navbar{
+    background-image: url(images/logo.jpg);
+    background-size: 8%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 
 /*HEADER*/
 .blocHaut {
@@ -48,9 +63,6 @@ body{
 
 
 .header{
-    background-image: url(images/logo.jpg);
-    background-position: left;
-    background-repeat: no-repeat;
     min-height: 40vh;
 }
 
@@ -65,6 +77,8 @@ body{
     font-size: 30px;
 }
 /*FIN HEADER*/
+
+
 
 
 /* STYLE CAROUSSEL */
